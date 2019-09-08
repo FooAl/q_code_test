@@ -1,0 +1,59 @@
+.ad_unit{
+    height: 520px;
+    display: flex;
+}
+
+.carousel{
+    height: 100%;
+    width: 630px;
+    min-width: 630px;
+    display: flex;
+}
+
+.slide_one_large{
+    background: #233c5b;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.slide_one_large_logo_container{
+    display: flex;
+    height: 50px;
+    width: 85%;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 50px 0px;
+}
+
+.slide_one_large_logo{
+    width: 300px;
+    height: 50px;
+}
+
+.slide_one_large_text{
+    width: 85%;
+}
+
+.slide_one_large_button_container{
+    display: flex;
+    width: 85%;
+    height: 50px;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 50px;
+}
+
+.slide_one_large_button{
+    height: 100%;
+}
+
+.video{
+    height: 100%;
+    display: flex;
+}
+
+.video video{
+    height: 100%;
+}
