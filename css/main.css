@@ -1,3 +1,7 @@
+html{
+    background: #999999;
+}
+
 .ad_unit{
     height: 520px;
     display: flex;
@@ -46,6 +50,30 @@
 }
 
 .slide_one_large_button{
+    height: 100%;
+}
+
+.slide_two_large{
+    background: #ffffff;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.slide_two_container{
+    width: 95%;
+    margin: 40px 0px;
+}
+
+.slide_two_large_button_container{
+    display: flex;
+    justify-content: flex-start;
+    height: 45px;
+    margin: 100px 0px 0px 0px;
+}
+
+.slide_two_large_button{
     height: 100%;
 }
 
