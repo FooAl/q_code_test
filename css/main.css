@@ -1,3 +1,4 @@
+/* Styling for Desktops */
 .ad_unit{
     display: flex;
     height: 520px;
@@ -125,7 +126,7 @@
     height: 100%;
 }
 
-
+/* Styling for below the tablet breakpoint */
 @media (max-width: 768px) {
     .ad_unit{
         height: 430px;

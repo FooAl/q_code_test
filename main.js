@@ -3,6 +3,7 @@ window.addEventListener('DOMContentLoaded', () => {
     currentSlide(position)
 });
 
+// Change which is the current slide on the carousel
 function prevSlide(){
     position -= 1;
     currentSlide(position);
@@ -12,6 +13,7 @@ function nextSlide(){
     currentSlide(position);
 }
 
+// Display the current slide
 function currentSlide(n) {
     let slides = document.getElementsByClassName("slide");
     let track = document.getElementsByClassName("carousel_track");
