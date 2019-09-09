@@ -1,7 +1,7 @@
 let position = 0;
-window.addEventListener('DOMContentLoaded', () => {
+// window.addEventListener('DOMContentLoaded', () => {
     currentSlide(position)
-});
+// });
 
 function prevSlide(){
     position -= 1;
