@@ -136,8 +136,8 @@ html{
 
     .carousel{
         display: relative;
-        height: 227px;
-        min-height: 227px;
+        height: 228px;
+        min-height: 228px;
         width: 360px;
         min-width: 360px;
         overflow: hidden;
@@ -156,6 +156,50 @@ html{
         width: 360px;
         height: 100%;
     }
+
+    .slide_one_large_logo_container{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        height: 30px;
+        width: 80%;
+        margin: 15px 0px;
+    }
+
+    .slide_one_large_logo{
+        width: 170px;
+        height: 29px;
+    }
+
+    .slide_one_large_text{
+        width: 80%;
+    }
+
+    .slide_one_large_button_container{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        height: 25px;
+        width: 80%;
+        margin: 15px;
+    }
+
+    .slide_two_container{
+        width: 95%;
+    }
+
+    .slide_two_large_text{
+        width: 80%;
+    }
+
+    .slide_two_large_button_container{
+        position: absolute;
+        height: 20px;
+        top: 194px;
+        right: 40px;
+        margin: 0px;
+    }
+
 
     .prev, .next{
         position: absolute;
@@ -192,6 +236,4 @@ html{
         width: 100%;
         height: auto;
     }
-
-
 }
