@@ -1,5 +1,5 @@
 let position = 0;
-window.addEventListener('DOMContentLoaded', event => {
+window.addEventListener('DOMContentLoaded', () => {
     currentSlide(position)
 });
 
