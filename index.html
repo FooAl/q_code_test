@@ -7,33 +7,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="css/reset.css">
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css">
-    <!-- <script src="main.js"></script> -->
+    <script src="main.js"></script>
 </head>
 <body>
     <div class="ad_unit">
         <section class="carousel">
-            <div class="slide_one_large">
-                <span class="slide_one_large_logo_container">
-                    <img class="slide_one_large_logo" src="assets/slide1_logo.png">
-                </span>
-                <img class="slide_one_large_text" src="assets/slide1_copylarge.png">
-                <span class="slide_one_large_button_container">
-                    <a href="https://qz.com">
-                        <img class="slide_one_large_button" src="assets/slide1_button.png">
-                    </a>
-                </span>
+            <div class="carousel_track pos1">
+                <div class="slide slide_one_large">
+                    <span class="slide_one_large_logo_container">
+                        <img class="slide_one_large_logo" src="assets/slide1_logo.png">
+                    </span>
+                    <img class="slide_one_large_text" src="assets/slide1_copylarge.png">
+                    <span class="slide_one_large_button_container">
+                        <a href="https://qz.com">
+                            <img class="slide_one_large_button" src="assets/slide1_button.png">
+                        </a>
+                    </span>
+                </div>
+                
+                <div class="slide slide_two_large">
+                    <section class="slide_two_container">
+                        <img class="slide_two_large_text" src="assets/slide2_copylarge.png">
+                        <span class="slide_two_large_button_container">
+                            <a href="https://creative.qz.com/">
+                                <img class="slide_two_large_button" src="assets/slide2_button.png">
+                            </a>
+                        </span>
+                    </section>
+                </div>
             </div>
 
-            <!-- <div class="slide_two_large">
-                <section class="slide_two_container">
-                    <img class="slide_two_large_text" src="assets/slide2_copylarge.png">
-                    <span class="slide_two_large_button_container">
-                        <a href="https://creative.qz.com/">
-                            <img class="slide_two_large_button" src="assets/slide2_button.png">
-                        </a>                    
-                    </span>
-                </section>
-            </div> -->
+            <a class="prev">
+                <img src="assets/left_arrow.png" onclick="prevSlide()">
+            </a>
+
+            <a class="next">
+                <img src="assets/right_arrow.png" onclick="nextSlide()">
+            </a>
         </section>
 
         <section class="video">

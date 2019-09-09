@@ -8,17 +8,34 @@ html{
 }
 
 .carousel{
-    display: flex;
-    height: 100%;
+    display: relative;
+    height: 520px;
+    min-height: 520px;
     width: 630px;
     min-width: 630px;
+    overflow: hidden;
+}
+
+.carousel_track{
+    display: flex;
+    width: 1260px;
+    transition: .5s;
+}
+
+.pos0{
+    transform: translateX(0%);
+}
+
+.pos1{
+    transform: translateX(-50%);
 }
 
 .slide_one_large, .slide_two_large{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
+    width: 630px;
+    height: 100%;
 }
 
 .slide_one_large_button, .slide_two_large_button{
@@ -71,6 +88,43 @@ html{
     height: 45px;
     margin: 100px 0px 0px 0px;
 }
+
+.inactive{
+    display: none;
+}
+
+.active{
+    display: flex;
+}
+
+.prev, .next{
+    position: absolute;
+    top: 340px;
+}
+
+.prev img, .next img{
+    opacity: .3;
+    transition: .5s;
+}
+
+.prev img:hover, .next img:hover{
+    opacity: 1;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.prev{
+    left: 15px;
+}
+
+.next{
+    left: 540px;
+}
+
+.prev img, .next img{
+    width: 50%;
+}
+
 
 .video{
     display: flex;
