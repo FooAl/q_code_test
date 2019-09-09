@@ -1,7 +1,7 @@
 let position = 0;
-// window.addEventListener('DOMContentLoaded', () => {
+window.addEventListener('DOMContentLoaded', () => {
     currentSlide(position)
-// });
+});
 
 function prevSlide(){
     position -= 1;
@@ -18,4 +18,5 @@ function currentSlide(n) {
     if (n > slides.length - 1) position = 0;
     if (n < 0) position = slides.length - 1;
     track[0].className = `carousel_track pos${position}`
+    console.log("test");
 }
