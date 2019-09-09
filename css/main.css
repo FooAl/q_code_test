@@ -35,7 +35,11 @@
     height: 100%;
 }
 
-.slide_one_button, .slide_two_button{
+.slide_one_button{
+    height: 50px;
+}
+
+.slide_two_button{
     height: 100%;
 }
 
