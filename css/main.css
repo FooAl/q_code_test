@@ -89,20 +89,13 @@ html{
     margin: 100px 0px 0px 0px;
 }
 
-.inactive{
-    display: none;
-}
-
-.active{
-    display: flex;
-}
-
 .prev, .next{
     position: absolute;
     top: 340px;
 }
 
 .prev img, .next img{
+    width: 50%;
     opacity: .3;
     transition: .5s;
 }
@@ -121,10 +114,6 @@ html{
     left: 540px;
 }
 
-.prev img, .next img{
-    width: 50%;
-}
-
 
 .video{
     display: flex;
@@ -133,4 +122,76 @@ html{
 
 .video video{
     height: 100%;
+}
+
+
+@media (max-width: 768px) {
+    .ad_unit{
+        display: flex;
+        height: 430px;
+        width: 360px;
+        flex-direction: column-reverse;
+        justify-content: flex-end;
+    }
+
+    .carousel{
+        display: relative;
+        height: 227px;
+        min-height: 227px;
+        width: 360px;
+        min-width: 360px;
+        overflow: hidden;
+    }
+
+    .carousel_track{
+        display: flex;
+        width: 720px;
+        transition: .5s;
+    }
+
+    .slide_one_large, .slide_two_large{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 360px;
+        height: 100%;
+    }
+
+    .prev, .next{
+        position: absolute;
+        top: 355px;
+        height: 35px;
+    }
+
+    .prev img, .next img{
+        width: 35px;
+        opacity: .3;
+        transition: .5s;
+    }
+
+    .prev img:hover, .next img:hover{
+        opacity: 1;
+        transition: .5s;
+        cursor: pointer;
+    }
+
+    .prev{
+        left: 15px;
+    }
+
+    .next{
+        left: 310px;
+    }
+
+    .video{
+        display: flex;
+        width: 100%;
+    }
+
+    .video video{
+        width: 100%;
+        height: auto;
+    }
+
+
 }
