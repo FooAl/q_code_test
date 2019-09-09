@@ -194,7 +194,6 @@
         margin: 0px;
     }
 
-
     .prev, .next{
         top: 355px;
         height: 35px;
@@ -210,5 +209,9 @@
 
     .next{
         left: 325px;
+    }
+
+    .video{
+        width: 360px;
     }
 }
