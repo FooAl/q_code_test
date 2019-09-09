@@ -108,11 +108,11 @@
 }
 
 .prev{
-    left: 15px;
+    left: 20px;
 }
 
 .next{
-    left: 540px;
+    left: 550px;
 }
 
 
@@ -128,7 +128,6 @@
 
 @media (max-width: 768px) {
     .ad_unit{
-        display: flex;
         height: 430px;
         width: 360px;
         flex-direction: column-reverse;
@@ -136,26 +135,18 @@
     }
 
     .carousel{
-        display: relative;
         height: 228px;
         min-height: 228px;
         width: 360px;
         min-width: 360px;
-        overflow: hidden;
     }
 
     .carousel_track{
-        display: flex;
         width: 720px;
-        transition: .5s;
     }
 
     .slide_one, .slide_two{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
         width: 360px;
-        height: 100%;
     }
 
     .slide_one_button{
@@ -167,9 +158,6 @@
     }
 
     .slide_one_logo_container{
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
         height: 30px;
         width: 80%;
         margin: 15px 0px;
@@ -185,9 +173,6 @@
     }
 
     .slide_one_button_container{
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
         height: 25px;
         width: 80%;
         margin: 15px;
@@ -211,21 +196,12 @@
 
 
     .prev, .next{
-        position: absolute;
         top: 355px;
         height: 35px;
     }
 
     .prev img, .next img{
         width: 35px;
-        opacity: .3;
-        transition: .5s;
-    }
-
-    .prev img:hover, .next img:hover{
-        opacity: 1;
-        transition: .5s;
-        cursor: pointer;
     }
 
     .prev{
@@ -233,15 +209,6 @@
     }
 
     .next{
-        left: 310px;
-    }
-
-    .video{
-        display: flex;
-        width: 100%;
-    }
-
-    .video video{
-        width: 100%;
+        left: 325px;
     }
 }
